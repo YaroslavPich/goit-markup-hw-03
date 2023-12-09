@@ -62,19 +62,19 @@ a {
   text-transform: uppercase;
 }
 
-.Menu-nav {
+.menu-nav {
   list-style: none;
   display: flex;
   gap: 40px;
 }
-.Menu-nav .link {
+.menu-nav .link {
   color: #2e2f42;
   font-weight: 500;
   padding: 24px 0;
 }
 
-.Menu-nav .link:hover,
-.Menu-nav .link:focus {
+.menu-nav .link:hover,
+.menu-nav .link:focus {
   color: #404bbf;
   font-weight: 500;
 }
