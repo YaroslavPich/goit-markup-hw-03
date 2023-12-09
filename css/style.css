@@ -8,7 +8,7 @@ body {
   line-height: 1.5; /* 150% */
   letter-spacing: 0.32px;
 }
-img{
+img {
   display: block;
 }
 
@@ -28,13 +28,17 @@ a {
 .container {
   max-width: 100%;
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
-  margin-left: 0;
-  margin-right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  width: 1158px;
 }
-.navigation{
-  border-bottom: 1px solid #e7e9fc
+.navigation {
+  border-bottom: 1px solid #e7e9fc;
+}
+.navigation-on {
+  display: flex;
+  align-items: center;
 }
 
 .logo-w {
@@ -45,6 +49,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .logo-s {
@@ -54,15 +59,18 @@ a {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.54px;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .Menu-nav {
   list-style: none;
+  display: flex;
+  gap: 40px;
 }
 .Menu-nav .link {
   color: #2e2f42;
   font-weight: 500;
+  padding: 24px 0;
 }
 
 .Menu-nav .link:hover,
@@ -76,6 +84,8 @@ a {
 }
 .contact-list {
   list-style: none;
+  display: flex; 
+  gap: 40px;
 }
 .contact .link-contact {
   color: #434455;
