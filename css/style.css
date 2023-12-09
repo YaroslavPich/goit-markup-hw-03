@@ -33,6 +33,9 @@ a {
   margin-left: 0;
   margin-right: 0;
 }
+.navigation{
+  border-bottom: 1px solid #e7e9fc
+}
 
 .logo-w {
   color: #4d5ae5;
@@ -42,8 +45,6 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  display: flex;
-
 }
 
 .logo-s {
