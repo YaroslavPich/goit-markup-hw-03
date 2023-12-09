@@ -9,13 +9,25 @@ body {
   letter-spacing: 0.32px;
 }
 
-p{
+p {
   margin: 0;
 }
-h1, h2, h3, h4{}
+h1,
+h2,
+h3,
+h4 {
+}
 
 a {
   text-decoration: none;
+}
+
+.container {
+  max-width: 100%;
+  padding-left: 156px;
+  padding-right: 156px;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .logo-w {
@@ -36,7 +48,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
+ }
 
 .Menu-nav {
   list-style: none;
@@ -44,7 +56,7 @@ a {
 .Menu-nav .link {
   color: #2e2f42;
   font-weight: 500;
-}
+s}
 
 .Menu-nav .link:hover,
 .Menu-nav .link:focus {
