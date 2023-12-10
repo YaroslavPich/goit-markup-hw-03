@@ -221,9 +221,7 @@ a {
   row-gap: 48px;
 }
 
-.chapter-four-list 
-.chapter-four-list-item {
-  display: block;
+.chapter-four-list .li {
   width: calc((100% - 48px) / 3)
 }
 .product {
