@@ -157,11 +157,10 @@ a {
   list-style: none;
   display: flex;
   gap: 24px;
-  flex-basis: calc((100% - 72px) / 4);
 }
 
 .chapter-two-list-item {
-  
+  flex-basis: calc((100% - 72px) / 4);  
 }
 .chapter-two-title-litle{
   margin-bottom: 8px;
