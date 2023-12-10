@@ -230,6 +230,8 @@ a {
 }
 
 .chapter-four-list-item {
+  display: flex;
+  flex-direction: column;
   width: calc((100% - 48px) / 3);
 }
 .product {
