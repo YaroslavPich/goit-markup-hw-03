@@ -160,8 +160,10 @@ a {
 }
 
 .chapter-two-list-item {
-  margin-bottom: 8px;
   width: calc((100% - 72px) / 4);
+}
+.chapter-two-title-litle{
+  margin-bottom: 8px;
 }
 
 .chapter-three {
@@ -223,6 +225,7 @@ a {
   width: calc((100% - 48px) / 3);
 }
 .product {
+  margin-bottom: 8px;
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: 8px;
@@ -234,7 +237,7 @@ a {
 
 .chapter-down {
   background: #2e2f42;
-  padding: 100px;
+  padding: 100px 0;
 }
 
 .chapter-down-text {
@@ -259,4 +262,5 @@ a {
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: inline-block;
 }
