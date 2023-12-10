@@ -160,9 +160,9 @@ a {
 }
 
 .chapter-two-list-item {
-  flex-basis: calc((100% - 72px) / 4);  
+  width: calc((100% - 72px) / 4);
 }
-.chapter-two-title-litle{
+.chapter-two-title-litle {
   margin-bottom: 8px;
 }
 
