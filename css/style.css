@@ -157,10 +157,11 @@ a {
   list-style: none;
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .chapter-two-list-item {
-  width: calc((100% - 72px) / 4);
+  
 }
 .chapter-two-title-litle{
   margin-bottom: 8px;
