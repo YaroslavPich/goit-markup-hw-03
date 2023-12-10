@@ -84,7 +84,7 @@ a {
 }
 .contact-list {
   list-style: none;
-  display: flex; 
+  display: flex;
   gap: 40px;
 }
 .contact .link-contact {
@@ -99,7 +99,6 @@ a {
 .chapter-one {
   background: #2e2f42;
   padding: 188px 0;
-  
 }
 .chapter-one-title {
   color: #fff;
@@ -137,7 +136,12 @@ a {
 
 .chapter-two {
   background: #fff;
+  padding: 120px 0;
 }
+.visually-hidden {
+
+}
+
 .chapter-two-title-litle {
   color: #2e2f42;
   /* Header 3 */
@@ -152,6 +156,14 @@ a {
 
 .chapter-two-list {
   list-style: none;
+  display: flex;
+  gap: 24px;
+}
+.chapter-two-list-item{
+  width: calc((100% - 72px) / 4);
+}
+.chapter-two-list-item{
+  margin-bottom: 8px;
 }
 
 .chapter-three {
